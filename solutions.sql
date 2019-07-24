@@ -12,7 +12,11 @@ SELECT MIN(mins_to_play) AS shortestGameTime FROM board_games;
 
 SELECT MAX(minutes_required) FROM recipes;
 
+SELECT * FROM board_games WHERE max_players = 8 or min_players = 8;
 
+SELECT * FROM animals WHERE swimming = TRUE and egg_laying = TRUE;
 
-
+SELECT * FROM animals WHERE swimming = TRUE and egg_laying = TRUE and flying = FA
+ LSE;
+ 
 SELECT MAX(max_players) FROM board_games;
